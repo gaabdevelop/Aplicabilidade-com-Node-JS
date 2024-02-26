@@ -3,7 +3,7 @@ const puppeteer = require("puppeteer");
 const URL = `https://www.google.com/search?q=previs%C3%A3o+do+tempo&rlz=1C1CHBD_pt-PTBR1092BR1092&oq=previs%C3%A3o&gs_lcrp=EgZjaHJvbWUqEQgAEEUYJxg7GJ0CGIAEGIoFMhEIABBFGCcYOxidAhiABBiKBTIOCAEQRRgnGDsYgAQYigUyBggCEEUYOzIGCAMQRRg5Mg0IBBAAGJIDGIAEGIoFMg0IBRAAGJIDGIAEGIoFMgYIBhBFGD0yBggHEEUYPKgCALACAA&sourceid=chrome&ie=UTF-8`;
 
 (async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({headless: false});
   const page = await browser.newPage();
 
   await page.goto(URL, { waitUntil: "networkidle2" });
