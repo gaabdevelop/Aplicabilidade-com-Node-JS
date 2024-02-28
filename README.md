@@ -1,25 +1,43 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=238636&height=120&section=header"/>
 
-# Captura de Previsão do Tempo com Puppeteer
+# Previsão do Tempo com Puppeteer
 
-# Pré-requisitos
-Node.js:
-Baixe e instale o Node.js em https://nodejs.org/.
+Este script em Node.js usa Puppeteer para obter informações sobre a previsão do tempo do Google. Ele acessa a página de resultados de pesquisa do Google e extrai dados como temperatura, chance de chuva, umidade, velocidade do vento e condição climática.
 
-# Clone o Repositório
-•Baixe ou clone o repositório em seu computador.
-•Abra o Terminal:
-•Navegue até o diretório do projeto.
-•Instale Dependências:
+## Instalação
 
-•Execute "npm install -y" para instalar as ferramentas necessárias.
-•Instale o Puppeteer (Execute "npm install puppeteer" para instalar a biblioteca Puppeteer);
+Antes de tudo, certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
 
-# Execução
-•Execute o Script:
+1. Navegue até o diretório do projeto:
 
-Execute node NomeDoSeuScript.js no terminal.
-Substitua "NomeDoSeuScript.js" pelo nome do arquivo com o código Puppeteer.
+    ```bash
+    cd seu-diretorio
+    ```
+
+2. Inicialize o Node.js e instale a dependência do Puppeteer usando npm:
+
+    ```bash
+    npm init -y
+    npm install puppeteer
+    ```
+
+3. Após a instalação, você pode executar o script principal:
+
+    ```bash
+    node index.js
+    ```
+
+    O script abrirá uma instância do navegador, acessará a página de previsão do tempo do Google, capturará uma captura de tela e exibirá informações como temperatura, chance de chuva, umidade, velocidade do vento e condição climática no console.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias ou correções neste projeto. Abra uma issue para discutir mudanças propostas ou envie uma pull request.
+
+## Agradecimentos
+
+Obrigado por dedicar seu tempo para explorar este projeto! Sua curiosidade e interesse são muito apreciados.
+
+
 <div align="center"> 
 <a href="https://www.instagram.com/gaab_dcarli/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"</a>
 <a href="https://wa.me/55999161626" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
