@@ -8,20 +8,14 @@ Este script em Node.js usa Puppeteer para obter informações sobre a previsão 
 
 Antes de tudo, certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
 
-1. Navegue até o diretório do projeto:
-
-    ```bash
-    cd seu-diretorio
-    ```
-
-2. Inicialize o Node.js e instale a dependência do Puppeteer usando npm:
+1. Inicialize o Node.js e instale a dependência do Puppeteer usando npm:
 
     ```bash
     npm init -y
     npm install puppeteer
     ```
 
-3. Após a instalação, você pode executar o script principal:
+2. Após a instalação, você pode executar o script principal:
 
     ```bash
     node index.js
